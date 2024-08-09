@@ -1531,6 +1531,89 @@ form button:hover{
     
 }
 
+    
+/* for login and creat account page   */
+
+    /* Body adjustments */
+    body.login-body, 
+    .create-account-body {
+        background-position: center center;
+        background-size: cover;
+    }
+
+    /* Logo section adjustments */
+    .logo {
+        margin-top: 20px;
+    }
+
+    /* Login form adjustments */
+    #login {
+        width: 90%;
+        padding: 20px;
+    }
+
+    #login form input {
+        width: 90%;
+        margin-bottom: 15px;
+        line-height: 2.5;
+    }
+
+    #login form button {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    #login .create {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #login .create a {
+        margin-top: 15px;
+    }
+   
+
+
+  
+    /* Create Account form adjustments */
+    #create {
+        width: 90%;
+        padding: 20px;
+    }
+
+    #create form input {
+        width: 60%;
+        margin: 10px 0;
+        height: 40px;
+    }
+
+    .div1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .div2 {
+        text-align: center;
+    }
+
+    #create form button {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    #create .create {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #create .create span, 
+    #create .create a {
+        margin: 20px 0;
+    }
+
+
+
 
 }
 
