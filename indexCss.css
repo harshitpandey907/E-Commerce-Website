@@ -1023,6 +1023,211 @@ footer .copyright{
 
 
 
+
+/* login page */
+
+  body.login-body,
+  .create-account-body{
+    
+    background-image: url(image/3d-illustration-smartphone-with-products-coming-out-screen-online-shopping-e-commerce-concept_58466-14529.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top 35%  right 0;
+    width: 100%;
+
+}
+.logo{
+    text-align: center;
+    margin-top: 60px;
+    
+    
+}
+#login{
+    
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid wheat;
+    width: 400px;;
+    height: 50%;
+    border-radius: 10px;
+    margin:10px auto;
+    box-shadow:10px 10px 54px rgb(190, 233, 162) ;
+    
+    
+    
+}
+
+#login form{
+     display: flex;
+    flex-direction: column;
+
+    
+  
+  align-items: center;
+  justify-content: center;
+    
+    
+    
+}
+#login h2{
+    margin: 40px;
+}
+
+#login form input{
+    
+    width: 300px ;
+    margin-bottom:30px;
+    line-height: 3;
+
+    border-radius: 10px;
+}
+#login form button,
+#create form button{
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+#login form button:hover{
+
+    color: #fff;
+    background-color: #088178;
+
+}
+
+#login .create {
+    display: flex;
+    
+    justify-content: space-around; 
+
+    
+}
+
+#login .create span{
+    margin: 50px auto;
+}
+
+#login .create a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #000;
+    
+    border-radius: 5px;
+}
+
+/* create Account page */
+
+
+
+
+#create{
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid wheat;
+    width: 500px;
+    
+    border-radius: 10px;
+    margin:10px auto;
+
+    box-shadow:10px 10px 54px rgb(190, 233, 162) ;
+}
+#create .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#create form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+     
+
+    width: 100%;
+    
+    border-radius: 10px;
+    box-shadow:10px 10px 54px rgb(190, 233, 162) ;
+    
+
+}
+#create form input{
+    width: 300px;;
+    height: 35px;
+    margin:15px 5px;
+    border-radius: 10px;
+
+}
+.div1{
+
+    
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+
+#create form div input{
+    width: 300px;
+    height: 35px
+    
+}
+#create form div input[type=checkbox]{
+    width: 25px;
+}
+
+.div2{
+    align-self: flex-start;
+    width: 100%; 
+    text-align: left; 
+    padding-left: 0; 
+    margin-left: 0; 
+}
+
+
+#create form button{
+    
+    width: 150px;
+    margin:0px 30%;
+    margin-bottom: 20px;
+    
+    
+}
+form button:hover{
+    color: #fff;
+    background-color: #088178;
+}
+
+
+#create .create {
+    display: flex;
+    
+    justify-content: space-around; 
+
+    
+}
+#create .create span{
+    margin: 50px 100px;
+}
+#create .create a{
+    text-decoration: none;
+    color: #000;
+    
+    border-radius: 5px;
+}
+#create .create a:hover{
+    color:#088178;
+}
+
+
+
+
+
+
+
+
 @media (max-width:799px){
 
     .section-p1{
