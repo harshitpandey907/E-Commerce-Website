@@ -6,24 +6,29 @@
     <title>Login | E-Commerce</title>
     <link rel="stylesheet" href="indexCss.css">
 </head>
-<body>
-    <section id="header">
-        <!-- Your header content -->
+<body class="login-body">
+    <section id="login-header" class="logo">
+        <img src="image/logo.png" alt="">
     </section>
 
     <section id="login">
-        <h2>Login</h2>
+      <div class="form">
+        <h2>Let,s Login</h2>
         <form action="login_handler.php" method="POST">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+            
+            <input type="text" placeholder="Enter Email/Mobile number" id="username" name="username" required>
+            
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>
             <button type="submit" class="normal">Login</button>
         </form>
+        <div class="create">
+            <span><strong><a href="createAccount.html">Create Account</a></strong></span>
+            <span><strong><a href="#">Need Help</a></strong></span>
+       </div>
+
+    </div>  
     </section>
 
-    <footer class="section-p1">
-        <!-- Your footer content -->
-    </footer>
+    
 </body>
 </html>

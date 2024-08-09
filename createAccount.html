@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | E-Commerce</title>
+    <link rel="stylesheet" href="indexCss.css">
+</head>
+<body class="create-account-body">
+    <section id="create-header" class="logo">
+        <img src=" image\logo.png" alt="logo">
+    </section>
+
+    <section id="create">
+      <div class="form">
+        <h2>Create New Account</h2>
+        <form action="login_handler.php" method="POST">
+            <div class="personal-head">
+                <div class="div1">
+                <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                <input type="text" name="surname" id="surname" placeholder="Surname">
+                </div>
+               <div class="div1">
+                <input type="number" placeholder="Mobile Number">
+                <input type="email" placeholder="Your Email">
+               </div>
+            </div>
+
+            <div class="div2">
+            <input type="text" placeholder="Address" >
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>
+            <input type="password" id="password" name="password" placeholder="Confrim Password" required>
+
+            </div>
+
+           <div> <input type="checkbox"> I agree to the terms of service and privacy policy </div>
+            <button type="submit" class="normal">Create</button>
+
+        </form>
+        <div class="create">
+            <span><strong><a href="login.html">Login</a></strong></span>
+            <span><strong><a href="#">Need Help</a></strong></span>
+       </div>
+
+    </div>  
+    </section>
+
+    
+</body>
+</html>
